@@ -7,7 +7,7 @@
 
 Build docker image: <code> docker build -t love_and_war . 
 
-Run docker image: <code> docker run -t -p 8081:8081 love_and_war 
+Run docker image: <code> docker run -t -p 8081:8081 -d love_and_war 
 
 ### Send attack request
 ```json
